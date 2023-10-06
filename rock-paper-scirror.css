@@ -1,0 +1,58 @@
+.body{
+    background-image:url(pexels-felix-mittermeier-956999.jpg);
+    background-repeat:no-repeat;
+}
+.h1{
+      color:rgb(38, 175, 175);
+      font-size:33px;
+      font-weight:bold;
+      margin-top:33px;
+      margin-bottom: 30px;
+      text-decoration: underline;
+}
+.body{
+   
+    display:flex;
+    justify-content: center;
+}
+.button-div{
+    margin:0;
+    justify-content:space-between;
+    display:flex;
+    border: solid;
+    border-color: aquamarine;
+    padding:30px;
+    border-radius: 12px;
+    border-width:6px;
+}
+.button-1,.button-2,.button-3{
+    color:cadetblue;
+    margin: 12px;
+    flex:1;
+    height:81px;
+    border:none;
+    border-radius:360px;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:0.9s ;
+    box-shadow: 10px 10px 30px wheat;
+}
+.button-1,.button-2,.button-3{
+    background: linear-gradient(to right bottom,  black ,black,black,white,white);
+}
+.button-1:hover,.button-2:hover,.button-3:hover{
+    color: azure;
+    margin-top:0px;
+}
+.button-1:active{
+    color:red;
+}
+.button-2:active{
+    color:greenyellow;
+}
+.button-3:active{
+    color:blueviolet;
+}
+.button-div{
+    box-shadow: 12px 20px 60px white;
+}
